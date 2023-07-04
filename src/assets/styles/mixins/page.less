@@ -1,0 +1,210 @@
+  @import '../themes/default/index';
+
+    .slide-page {
+    position: relative;
+
+    .@{css-prefix}page-wrapper {
+      text-align: left;
+    }
+
+    .@{css-prefix}page-name {
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding-right: 15px;
+      text-align: right;
+      font-size: 14px;
+      font-family: PingFang SC-Bold, PingFang SC;
+      font-weight: bold;
+      color: #000000;
+      line-height: 44px;
+    }
+    .@{css-prefix}t-line{
+      position: absolute;
+      // top: 36px;
+      right: 16px;
+      width: 23px;
+      height: 3px;
+      background: #000;
+    }
+
+    .@{css-prefix}page-img {
+      margin-top: 60px;
+      text-align: center;
+
+      > img {
+        display: inline-block;
+        width: 245px;
+      }
+    }
+
+    .@{css-prefix}page-qrcode {
+      position: absolute;
+      right: 10px;
+      bottom: 20px;
+      width: 87px;
+      height: 87px;
+      padding: 5px;
+      background-color: #ffffff;
+
+      > img {
+        display: block;
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .@{css-prefix}dunk-notice{
+      padding-left: 28px;
+      padding-top: 14px;
+      margin-top: 24px;
+      width: 294px;
+      position: relative;
+      .img{
+        width: 195px;
+        height: 37px;
+        background: url('../../images/report/2022/page-notice.png') center no-repeat;
+        background-size: 100% 100%;
+      }
+    }
+    .@{css-prefix}dunk-notice::before{
+      position: absolute;
+      left: 28px;
+      top: 0;
+      width: 100%;
+      height: 1px;
+      background: rgba(0,89,135,0.62);
+      content: ' ';
+    }
+
+    // 模块
+    .@{css-prefix}page-section1 {
+      padding-top: 50px;
+      padding-left: 25px;
+
+      &-title {
+        font-size: 22px;
+        font-family: FZZongYi-M05;
+        font-weight: bold;
+        line-height: 1;
+        color: #4c4c4c;
+      }
+
+      &-content {
+        &-item {
+          padding-top: 20px;
+          font-size: 18px;
+          font-weight: 400;
+          color: #4c4c4c;
+          line-height: 1;
+
+          > div {
+            padding-top: 10px;
+
+            &:first-of-type {
+              font-size: 36px;
+              color: #4c4c4c;
+            }
+          }
+
+          // 模块
+          .@{css-prefix}page-section {
+            &-hd {
+              font-size: 36px;
+              font-family: FZZongYi-M05;
+              font-weight: bold;
+              color: #4c4c4c;
+            }
+
+            &-bd {
+              padding-top: 10px;
+              font-size: 18px;
+              font-family: Source Han Sans CN;
+            }
+          }
+
+          // flexbox
+          .@{css-prefix}page-section-flexbox-align-end {
+            display: flex;
+            align-items: flex-end;
+            justify-content: flex-start;
+            text-align: left;
+            overflow-y: hidden;
+          }
+        }
+      }
+    }
+  }
+
+
+  .down {
+    position: absolute;
+    left: 50%;
+    bottom: 30%;
+    width: 24px;
+    height: 29px;
+    transform: translate3d(-50%, 0, 0);
+    background: url('../../images/user/page-arrow.png') center no-repeat;
+    background-size: 100% 100%;
+  }
+
+  // 封装的动画效果
+  .keyframesFunction (@name,@content) {
+    @keyframes @name {
+      @content();
+    }
+  }
+
+  //引用时写进所需要的css样式中
+  .down {
+    .keyframesFunction (down, {0% {bottom: 30px;} 100% {bottom: 10px;}});
+    animation: down 1s infinite;
+  }
+
+  .up {
+    position: absolute;
+    left: 50%;
+    bottom: 30%;
+    width: 24px;
+    height: 29px;
+    transform: translate3d(-50%, 0, 0);
+    background: url('../../images/report/2022/page-arrow.png') center no-repeat;
+    background-size: 100% 100%;
+    z-index: 100000;
+  }
+
+  // 封装的动画效果
+  .keyframesUpFunction (@name,@content) {
+    @keyframes @name {
+      @content();
+    }
+  }
+
+
+  // 引用时写进所需要的css样式中
+  .up {
+    .keyframesUpFunction (up, {0% {bottom: 40px;} 100% {bottom: 20px;}});
+    animation: up 1.1s infinite;
+    animation-direction: alternate;
+  }
+
+  .animate__animated.animate__delay-0-5s {
+    animation-delay: 0.5s;
+  }
+
+  .animate__animated.animate__delay-1-5s {
+    animation-delay: 1.5s;
+  }
+
+    .animate__animated.animate__normals {
+    --animate-duration: 0.7s;
+  }
+
+  .animate__animated.animate__normal {
+    --animate-duration: 1.6s;
+  }
+
+  // 文字颜色
+  .main-color{
+    color: #305CC1;
+  }

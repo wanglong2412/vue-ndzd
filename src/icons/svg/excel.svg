@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="34.993" height="42" viewBox="0 0 34.993 42">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="矩形_860" data-name="矩形 860" width="34.993" height="42" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="excel" transform="translate(-5895.009 -2913)">
+    <g id="组_1029" data-name="组 1029" transform="translate(5895.009 2913)">
+      <g id="组_1028" data-name="组 1028" transform="translate(0 0)">
+        <g id="组_1027" data-name="组 1027" transform="translate(0 0)" clip-path="url(#clip-path)">
+          <path id="路径_856" data-name="路径 856" d="M-21.02,37.89a2.014,2.014,0,0,0-1.47.63,2.23,2.23,0,0,0-.63,1.47v37.8a2.015,2.015,0,0,0,.63,1.47,2.073,2.073,0,0,0,1.47.63H9.78a2.015,2.015,0,0,0,1.47-.63,2.073,2.073,0,0,0,.63-1.47v-28L-.02,37.89Zm0,0" transform="translate(23.113 -37.89)" fill="#5acc9b"/>
+        </g>
+      </g>
+      <path id="路径_857" data-name="路径 857" d="M411.177,49.79h-9.8a2.154,2.154,0,0,1-2.1-2.1v-9.8Zm0,0" transform="translate(-376.184 -37.89)" fill="#bdebd7"/>
+      <path id="路径_858" data-name="路径 858" d="M179.111,327.419l-4.76-6.65h3.29l3.115,4.76,3.255-4.76H187.2l-4.865,6.65,5.11,7.07h-3.325l-3.43-5.04-3.43,5.075H174Zm0,0" transform="translate(-163.228 -305.299)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

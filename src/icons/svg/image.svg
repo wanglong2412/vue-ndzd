@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="34.994" height="42" viewBox="0 0 34.994 42">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="矩形_861" data-name="矩形 861" width="34.994" height="42" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="image" transform="translate(23 -37.89)">
+    <g id="组_1032" data-name="组 1032" transform="translate(-23 37.89)">
+      <g id="组_1031" data-name="组 1031" transform="translate(0 0)" clip-path="url(#clip-path)">
+        <path id="路径_859" data-name="路径 859" d="M-21.02,37.89a2.014,2.014,0,0,0-1.47.63,2.23,2.23,0,0,0-.63,1.47v37.8a2.015,2.015,0,0,0,.63,1.47,2.073,2.073,0,0,0,1.47.63H9.78a2.015,2.015,0,0,0,1.47-.63,2.073,2.073,0,0,0,.63-1.47v-28L-.02,37.89Zm0,0" transform="translate(23.113 -37.89)" fill="#6ea8ff"/>
+      </g>
+    </g>
+    <path id="路径_860" data-name="路径 860" d="M411.177,49.79h-9.8a2.154,2.154,0,0,1-2.1-2.1v-9.8Zm0,0" transform="translate(-399.184)" fill="#c5dbfb"/>
+    <path id="路径_861" data-name="路径 861" d="M119.5,369.86l-4.375-6.79a.688.688,0,0,0-.6-.315.781.781,0,0,0-.595.315l-2.345,3.64-5.25-8.5a.688.688,0,0,0-.595-.315.779.779,0,0,0-.6.315l-7.21,11.655a.636.636,0,0,0,0,.7.65.65,0,0,0,.6.35h20.37a.783.783,0,0,0,.63-.35.7.7,0,0,0-.035-.7Zm0,0" transform="translate(-114.231 -302.5)" fill="#fff"/>
+    <path id="路径_862" data-name="路径 862" d="M385.2,311.64a1.75,1.75,0,1,0,1.75-1.75,1.75,1.75,0,0,0-1.75,1.75Zm0,0" transform="translate(-385.876 -257.125)" fill="#fff"/>
+  </g>
+</svg>

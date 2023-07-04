@@ -1,0 +1,81 @@
+@import "../themes/default/index";
+@import "../mixins/index";
+
+@loginPrefixCls: ~"@{css-prefix}login";
+
+.@{loginPrefixCls}-box {
+  padding: 0 30px;
+  .@{loginPrefixCls}-logo {
+    padding-top: 50px;
+    .@{loginPrefixCls}-title {
+      line-height: 1;
+      color: #333;
+      font-size: 31px;
+    }
+    .@{loginPrefixCls}-brief {
+      margin-top: 8px;
+      line-height: 24px;
+      color: #666;
+      font-size: 13px;
+    }
+  }
+  .@{loginPrefixCls}-form {
+    margin-top: 40px;
+    .@{css-prefix}btn-ghost {
+      width: 90px;
+      height: 36px;
+      line-height: 36px;
+      padding: 0;
+      font-size: 14px;
+      border: none;
+
+    }
+  }
+  .@{loginPrefixCls}-agree {
+    margin-top: 20px;
+  }
+  .@{loginPrefixCls}-submit {
+    margin-top: 30px;
+    .@{css-prefix}btn-primary {
+      height: 46px;
+      line-height: 46px;
+      background-image: linear-gradient(90deg, #55b7f4 0%, #5e89f5 100%), linear-gradient(#3586ff, #3586ff);
+      border: none;
+    }
+  }
+  .@{loginPrefixCls}-tips {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    > p {
+      color: #333;
+      text-align: center;
+      font-size: 16px;
+      line-height: 24px;
+      a {
+        color: @brand-primary;
+      }
+    }
+  }
+}
+
+.@{loginPrefixCls}-form {
+  .van-cell-group {
+    &::after {
+      display: none;
+    }
+    .van-cell {
+      padding: 12px 15px;
+      background-color: #f2f6fc;
+      border-radius: 3px;
+      &:not(:last-child) {
+        margin-bottom: 5px;
+        &::after {
+          display: none;
+        }
+      }
+    }
+    .cyui-cell-code {
+      padding: 6px 15px;
+    }
+  }
+}
